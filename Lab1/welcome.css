@@ -1,0 +1,62 @@
+
+body {
+	margin-top: 100px;
+}
+
+.totalArea {
+	align-self: center;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 100px;
+	border-style: solid;
+	width: 340px;
+	height: 400px;
+	margin-right: 5px;
+}
+
+label {
+	margin-top: 10px;
+	display: inline-block;
+	text-align: right;
+	padding-right: 10px;
+	width: 100px;
+}
+
+select[id="gender"] {
+	width: 45%;
+}
+
+input[type="submit"] {
+	margin-left: 180px; 
+}
+
+.formsArea {
+	margin-top: 100px;
+	flex-direction: column;
+	width: 250px;
+	height: 400px;
+	margin-left: 5px;
+}
+
+.login {
+	text-align: center;
+	border-style: solid;
+	width: 250px;
+	height: 125px;
+	margin-bottom: 5px;
+}
+
+.signup {
+	text-align: center;
+	border-style: solid;
+	margin-top: 5px;
+	width: 250px;
+	height: 264px;
+}
